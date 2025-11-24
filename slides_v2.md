@@ -1,118 +1,122 @@
 <!-- marp: true -->
-
 ---
-
 marp: true
 theme: custom-theme
-paginate: true
 class: lead
-math: true
+paginate: true
 size: 16:9
-----------
+math: true
+---
+
+<!--
+  A single-file Marp Markdown presentation:
+  - Multiple Marp directives (HTML + YAML front-matter)
+  - Custom theme & CSS
+  - Page numbers enabled
+  - Uses local image: /mnt/data/world_map.webp
+  - Math (KaTeX) enabled
+  - Includes email: 23f2005452@ds.study.iitm.ac.in
+-->
 
 <style>
+/* Simple custom theme CSS that Marp will apply */
 section {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #222;
+  background-color: #ffffff;
+  padding: 36px;
 }
-h1, h2, h3 {
-  color: #ff7a00;
-}
+
+/* Headings */
+h1 { color: #1f6feb; font-size: 48px; margin-bottom: 6px; }
+h2 { color: #ff7a00; font-size: 34px; margin-bottom: 4px; }
+h3 { color: #333; font-size: 24px; }
+
+/* Note / small text */
+.note { font-size: 0.9em; color: #555; opacity: 0.95; }
+
+/* Background image helper class */
 img.bg {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.20;
+  object-fit: cover;
+  opacity: 0.18;
   z-index: -1;
+}
+
+/* Card-like content styling */
+.card {
+  background: rgba(255,255,255,0.96);
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 10px 24px rgba(14, 30, 37, 0.06);
+  border-left: 8px solid #1f6feb;
 }
 </style>
 
-# **A Friendship Between a Dog and a Cat**
-
+<!-- Title slide -->
+# A Friendship Between a Dog and a Cat
 ### A Heartwarming Tale
-
-#### Vinay — [23f2005452@ds.study.iitm.ac.in](mailto:23f2005452@ds.study.iitm.ac.in)
-
----
-
-# **Introduction**
-
-* Dogs and cats are often seen as natural rivals.
-* But friendship can grow in unexpected ways.
-* This presentation shares a story of trust and companionship.
+#### Vinay — 23f2005452@ds.study.iitm.ac.in
+<div class="note">Marp presentation — multiple directives, custom theme, page numbers, background image, math</div>
 
 ---
 
-# **First Encounter**
-
-![bg](world_map.webp)
-
-* A lonely dog and a cautious cat meet near a backyard fence.
-* At first, they keep their distance.
-* Curiosity slowly replaces fear.
+<!-- Why this story -->
+# Why this story?
+- Dogs and cats are commonly portrayed as rivals.
+- This story highlights curiosity, patience & trust.
+- Good for demonstrating Marp features in a maintainable Markdown file.
 
 ---
 
-# **Building Trust**
-
-* Shared food moments
-* Respecting each other's space
-* Learning to play together
+<!-- Requirements slide -->
+# Requirements satisfied
+- **Email included:** `23f2005452@ds.study.iitm.ac.in`  
+- **Multiple Marp directives** (HTML comment + YAML front-matter)  
+- **Custom theme** (CSS inside `<style>`)  
+- **Page numbers** (`paginate: true`)  
+- **Background image slide** using `world_map.webp`  
+- **Math** enabled (`math: true`)  
 
 ---
 
-# **Custom Styling Example**
+<!-- Background image slide using the provided local file path.
+     If you host the file on GitHub, replace the path with the raw GitHub URL:
+     https://raw.githubusercontent.com/<USER>/<REPO>/main/path/to/world_map.webp
+-->
+![bg](/mnt/data/world_map.webp)
 
+# First Meeting
+<div class="card">
+- A shy cat on the porch and a curious dog in the yard.  
+- They notice each other across a fence and slowly explore.  
+- Early interactions are cautious but curious.
+</div>
+
+---
+
+# Building Trust
+- Shared food moments (distance-respected treats).  
+- Gentle play that respects boundaries.  
+- Time and repetition increase comfort.
+
+---
+
+# Shared Adventures
+- Short explorations together (backyard, garden paths).  
+- Play: chasing leaves & shadow games.  
+- Rest: sunny naps with alternating positions.
+
+---
+
+# Custom Styling Example
 ```css
 section {
-  background-color: #fff7ec;
+  background-color: #fffaf5;
   border-left: 10px solid #ff7a00;
-  padding: 20px;
+  padding: 22px;
 }
-```
-
-Styling adds warmth to the story slides.
-
----
-
-# **Math Example**
-
-### Friendship Growth Over Time
-
-Using a symbolic friendship function:
-
-$$ F(t) = 1 - e^{-0.5t} $$
-
-Where:
-
-* **F(t)** = Friendship level
-* **t** = Time spent together
-
----
-
-# **Background Image Slide**
-
-![bg](world_map.webp)
-
-## Shared Adventures
-
-* Chasing butterflies
-* Exploring gardens
-* Napping in sunny spots
-
----
-
-# **Conclusion**
-
-### What Their Friendship Teaches Us
-
-* Differences don’t prevent connection.
-* Trust is built slowly.
-* Friendship can thrive in unexpected places.
-
----
-
-# **Thank You!**
-
-### Questions?
