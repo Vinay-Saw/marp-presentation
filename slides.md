@@ -1,1 +1,96 @@
---- marp: true theme: gaia paginate: true backgroundColor: #fefefe author: "23f2005452@ds.study.iitm.ac.in" style: | /* Custom Global Theme Specification */ section { font-family: 'Arial', sans-serif; } h1 { color: #0969da; } code { background-color: #f6f8fa; color: #cf222e; padding: 0.2em 0.4em; border-radius: 6px; } --- # Product Documentation Strategy ## Modern Solutions for Technical Writing **Prepared by:** Technical Writer **Email:** 23f2005452@ds.study.iitm.ac.in --- # Agenda 1. Documentation Philosophy 2. Workflow Integration 3. Algorithmic Indexing 4. Visual Architecture > "Documentation should be maintainable in version control and easily convertible." --- # Why Marp? (Custom Style Slide) This slide demonstrates **custom styling directives** applied specifically to this page (Blue background, White text). - **Git-friendly**: Docs live with the code. - **Automated**: CI/CD pipelines can build slides. - **Flexible**: Export to HTML, PDF, or PowerPoint. --- ![bg right:40%](https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80) # Infrastructure Overview Our documentation hosting platform utilizes a distributed architecture to ensure low latency. ### Key Components: - **CDN**: Global content delivery. - **SSG**: Static Site Generation for speed. - **VCS**: Git-based version control system. --- # Algorithmic Complexity We utilize an optimized search algorithm to index documentation pages. The efficiency is crucial for large datasets. The time complexity for our search indexing operation is calculated as: $$ T(n) = \sum_{i=1}^{n} \log(i) \approx O(n \log n) $$ Where: - $n$ is the number of documentation modules. - $T(n)$ is the total time required for indexing. --- # Conclusion By treating documentation like code, we ensure consistency and scalability. **Contact:** 23f2005452@ds.study.iitm.ac.in
+---
+marp: true
+theme: custom-theme
+class: lead
+paginate: true
+---
+
+<!-- Custom Theme Specification -->
+<style>
+section {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3 {
+  color: #1a73e8;
+}
+
+img.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.15;
+  z-index: -1;
+}
+</style>
+
+# Product Documentation Presentation
+### Using **Marp** for Maintainable Slides
+#### Vinay — 23f2005452@ds.study.iitm.ac.in
+
+---
+
+# Why Marp?
+- Markdown-based slides
+- Easy version control (Git)
+- Export to PDF/HTML/PPTX
+- Developer-friendly
+
+---
+
+# Custom Theme Info
+This presentation uses:
+- Custom fonts
+- Custom heading colors
+- Custom background styling
+
+---
+
+# Background Image Slide
+![bg](https://picsum.photos/1200/800)
+
+## Example Slide with Background Image
+- This slide demonstrates background usage
+- Image applied with low opacity
+
+---
+
+# Page Numbers Enabled
+Marp automatically numbers slides when `paginate: true` is set.
+
+---
+
+# Custom Styling Example
+
+```css
+section {
+  background-color: #f5f9ff;
+  border-left: 10px solid #1a73e8;
+  padding: 20px;
+}
+```
+
+This adds a soft layout aesthetic.
+
+---
+
+# Mathematical Equations
+### Algorithmic Complexity Example
+
+Using inline LaTeX:
+
+$$ T(n) = O(n \log n) $$
+
+Example for merge sort.
+
+Or recurrence:
+
+$$ T(n) = 2T\left(\frac{n}{2}\right) + O(n) $$
+
+---
+
+# Thank You!
+### Questions?
+
