@@ -4,106 +4,115 @@
 
 marp: true
 theme: custom-theme
-class: lead
 paginate: true
---------------
-
-<!-- Custom Theme Specification -->
+class: lead
+math: true
+size: 16:9
+----------
 
 <style>
 section {
   font-family: 'Segoe UI', sans-serif;
 }
-
 h1, h2, h3 {
-  color: #1a73e8;
+  color: #ff7a00;
 }
-
 img.bg {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.15;
+  opacity: 0.20;
   z-index: -1;
 }
 </style>
 
-# Product Documentation Presentation
+# **A Friendship Between a Dog and a Cat**
 
-### Using **Marp** for Maintainable Slides
+### A Heartwarming Tale
 
 #### Vinay — [23f2005452@ds.study.iitm.ac.in](mailto:23f2005452@ds.study.iitm.ac.in)
 
 ---
 
-# Why Marp?
+# **Introduction**
 
-* Markdown-based slides
-* Easy version control (Git)
-* Export to PDF/HTML/PPTX
-* Developer-friendly
-
----
-
-# Custom Theme Info
-
-This presentation uses:
-
-* Custom fonts
-* Custom heading colors
-* Custom background styling
+* Dogs and cats are often seen as natural rivals.
+* But friendship can grow in unexpected ways.
+* This presentation shares a story of trust and companionship.
 
 ---
 
-# Background Image Slide
+# **First Encounter**
 
-![bg](/world_map.webp)
+![bg](world_map.webp)
 
-## Example Slide with Background Image
-
-* This slide demonstrates background usage
-* Image applied with low opacity
-
----
-
-# Page Numbers Enabled
-
-Marp automatically numbers slides when `paginate: true` is set.
+* A lonely dog and a cautious cat meet near a backyard fence.
+* At first, they keep their distance.
+* Curiosity slowly replaces fear.
 
 ---
 
-# Custom Styling Example
+# **Building Trust**
+
+* Shared food moments
+* Respecting each other's space
+* Learning to play together
+
+---
+
+# **Custom Styling Example**
 
 ```css
 section {
-  background-color: #f5f9ff;
-  border-left: 10px solid #1a73e8;
+  background-color: #fff7ec;
+  border-left: 10px solid #ff7a00;
   padding: 20px;
 }
 ```
 
-This adds a soft layout aesthetic.
+Styling adds warmth to the story slides.
 
 ---
 
-# Mathematical Equations
+# **Math Example**
 
-### Algorithmic Complexity Example
+### Friendship Growth Over Time
 
-Using inline LaTeX:
+Using a symbolic friendship function:
 
-$$ T(n) = O(n \log n) $$
+$$ F(t) = 1 - e^{-0.5t} $$
 
-Example for merge sort.
+Where:
 
-Or recurrence:
-
-$$ T(n) = 2T\left(\frac{n}{2}\right) + O(n) $$
+* **F(t)** = Friendship level
+* **t** = Time spent together
 
 ---
 
-# Thank You!
+# **Background Image Slide**
+
+![bg](world_map.webp)
+
+## Shared Adventures
+
+* Chasing butterflies
+* Exploring gardens
+* Napping in sunny spots
+
+---
+
+# **Conclusion**
+
+### What Their Friendship Teaches Us
+
+* Differences don’t prevent connection.
+* Trust is built slowly.
+* Friendship can thrive in unexpected places.
+
+---
+
+# **Thank You!**
 
 ### Questions?
