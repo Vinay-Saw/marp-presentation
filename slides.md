@@ -157,6 +157,7 @@ Where $f(n)$ represents auxiliary space needed
 ---
 
 <!-- _class: data-bg -->
+<!-- _backgroundImage: url('world_map.webp') -->
 
 ## 🗃️ Core Data Structures
 
