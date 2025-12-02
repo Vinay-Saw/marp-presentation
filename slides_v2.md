@@ -56,7 +56,7 @@ section.title {
 }
 
 section.data-bg {
-  background: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200') no-repeat center;
+  background: url('./world_map.webp') no-repeat center;
   background-size: cover;
 }
 
